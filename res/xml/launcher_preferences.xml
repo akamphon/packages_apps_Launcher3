@@ -64,4 +64,11 @@
             android:targetClass="com.android.launcher3.Gestures" />
     </Preference>
 
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="pref_qsb_show"
+        android:persistent="true"
+        android:summary="@string/pref_qsb_show_summary"
+        android:title="@string/pref_qsb_show_title"/>
+
 </PreferenceScreen>
