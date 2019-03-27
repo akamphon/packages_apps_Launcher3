@@ -144,8 +144,6 @@ public final class Utilities {
     public static final String KEY_HIDDEN_APPS_SET = "hidden_app_set";
     public static final String QSB_SHOW = "pref_qsb_show";
 
-    private static final long WAIT_BEFORE_RESTART = 250;
-
     public static boolean showDesktopLabel(Context context) {
         return getPrefs(context).getBoolean(DESKTOP_SHOW_LABEL, true);
     }

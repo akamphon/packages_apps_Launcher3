@@ -20,6 +20,9 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.preference.PreferenceFragment;
 import android.view.View;
+import android.preference.SwitchPreference;
+import android.preference.Preference;
+import android.preference.Preference.OnPreferenceChangeListener;
 
 public class SettingsActivity extends Activity {
 
